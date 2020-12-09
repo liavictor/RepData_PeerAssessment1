@@ -85,7 +85,7 @@ sum(is.na(sd$steps))
 
 ```
 
-The total number of missing data is **`r sum(is.na(sd$steps))`** rows 
+The total number of missing data is **`r sum(is.na(sd$steps))`** 
 and the percentage of missing value is **`r round(((sum(is.na(sd$steps)) / (sum(is.na(sd$steps)) + sum(!is.na(sd$steps)))) * 100),2)`%**
 
 * step 2: use mean to impute the missing values and create imputed data

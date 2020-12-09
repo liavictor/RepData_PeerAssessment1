@@ -142,7 +142,7 @@ sum(is.na(sd$steps))
 ## [1] 13.11475
 ```
 
-The total number of missing data is **2304** rows 
+The total number of missing data is **2304** 
 and the percentage of missing value is **13.11%**
 
 * step 2: use mean to impute the missing values and create imputed data
